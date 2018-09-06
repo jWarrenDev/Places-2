@@ -13,7 +13,7 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Places_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CreateNewPlacesViewController" customModule="Places_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="1055" y="-284"/>
         </scene>
-        <!--Item-->
+        <!--Places-->
         <scene sceneID="D7I-NF-6af">
             <objects>
-                <viewController id="bL8-aq-gFS" sceneMemberID="viewController">
+                <viewController id="bL8-aq-gFS" customClass="VisitedPlacesViewController" customModule="Places_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5CV-Vl-zeV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1hu-nE-dWm"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Fnq-1T-7D7"/>
+                    <tabBarItem key="tabBarItem" title="Places" id="Fnq-1T-7D7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2o9-28-cMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="1872" y="727"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Places Tab Bar Controller-->
         <scene sceneID="e0L-kh-RPF">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="61g-fL-Cjl" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="61g-fL-Cjl" customClass="PlacesTabBarController" customModule="Places_2" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9sA-fc-IVW">
                         <autoresizingMask key="autoresizingMask"/>
