@@ -10,10 +10,20 @@ import UIKit
 
 class PlacesTabBarController: UITabBarController {
 
+    let placeController = PlaceController()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        for childVC in childViewControllers {
+            
+            if let childVC = childVC as? PlacesPresenter {
+                childVC.placeController = placeController
+            }
+            
+            
+        }
     }
 
 }

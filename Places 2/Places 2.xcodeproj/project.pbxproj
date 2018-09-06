@@ -19,6 +19,8 @@
 		C35406A82141977800FDA074 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35406A72141977800FDA074 /* MapViewController.swift */; };
 		C35406AD214197F800FDA074 /* VisitedPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35406AC214197F800FDA074 /* VisitedPlacesViewController.swift */; };
 		C35406AF2141991300FDA074 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35406AE2141991300FDA074 /* PlacesTableViewController.swift */; };
+		C35406B12141996300FDA074 /* PlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35406B02141996300FDA074 /* PlaceController.swift */; };
+		C35406B321419CF100FDA074 /* PlacesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35406B221419CF100FDA074 /* PlacesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		C35406A72141977800FDA074 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C35406AC214197F800FDA074 /* VisitedPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedPlacesViewController.swift; sourceTree = "<group>"; };
 		C35406AE2141991300FDA074 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		C35406B02141996300FDA074 /* PlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceController.swift; sourceTree = "<group>"; };
+		C35406B221419CF100FDA074 /* PlacesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		C354068721418AA300FDA074 /* Places 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C35406B421419D0500FDA074 /* Protocols */,
 				C35406AB214197BA00FDA074 /* Model */,
 				C354069A21418C8A00FDA074 /* View Controllers */,
 				C354069E2141900000FDA074 /* StoryBoards */,
@@ -79,9 +84,9 @@
 		C354069A21418C8A00FDA074 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C35406A32141972800FDA074 /* PlacesTabBarController.swift */,
 				C35406AE2141991300FDA074 /* PlacesTableViewController.swift */,
 				C35406AC214197F800FDA074 /* VisitedPlacesViewController.swift */,
-				C35406A32141972800FDA074 /* PlacesTabBarController.swift */,
 				C35406A52141975200FDA074 /* CreateNewPlacesViewController.swift */,
 				C35406A72141977800FDA074 /* MapViewController.swift */,
 			);
@@ -112,9 +117,18 @@
 		C35406AB214197BA00FDA074 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C35406B02141996300FDA074 /* PlaceController.swift */,
 				C35406A12141955700FDA074 /* Place.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C35406B421419D0500FDA074 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C35406B221419CF100FDA074 /* PlacesPresenter.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35406A42141972800FDA074 /* PlacesTabBarController.swift in Sources */,
+				C35406B321419CF100FDA074 /* PlacesPresenter.swift in Sources */,
+				C35406B12141996300FDA074 /* PlaceController.swift in Sources */,
 				C354068921418AA400FDA074 /* AppDelegate.swift in Sources */,
 				C35406A22141955700FDA074 /* Place.swift in Sources */,
 				C35406A82141977800FDA074 /* MapViewController.swift in Sources */,

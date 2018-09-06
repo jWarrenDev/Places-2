@@ -13,9 +13,9 @@ struct Place {
     let location: (latitude:Double, longitude:Double )
 
     
-    init(name:String, latiude: latitude:Double, longitude:Double){
+    init(name:String, latiude:Double, longitude:Double){
         self.name = name
-        self.location = (latitude: latitude:Double, longitude:Double)
+        self.location = (latitude:longitude, longitude:longitude)
         
     }
 }

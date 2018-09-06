@@ -8,7 +8,11 @@
 
 import UIKit
 
-class VisitedPlacesViewController: UIViewController {
+class VisitedPlacesViewController: UIViewController, PlacesPresenter {
+    var placeController: PlaceController?
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
