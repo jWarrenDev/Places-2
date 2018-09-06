@@ -12,6 +12,7 @@
 		C354069021418AAF00FDA074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C354068F21418AAF00FDA074 /* Assets.xcassets */; };
 		C354069321418AAF00FDA074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354069121418AAF00FDA074 /* LaunchScreen.storyboard */; };
 		C354069D21418FFB00FDA074 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354069C21418FFB00FDA074 /* MapView.storyboard */; };
+		C35406A02141910000FDA074 /* PlacesTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354069F2141910000FDA074 /* PlacesTable.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C354069221418AAF00FDA074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C354069421418AAF00FDA074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C354069C21418FFB00FDA074 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		C354069F2141910000FDA074 /* PlacesTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesTable.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				C354069C21418FFB00FDA074 /* MapView.storyboard */,
+				C354069F2141910000FDA074 /* PlacesTable.storyboard */,
 				C354068C21418AA400FDA074 /* Main.storyboard */,
 			);
 			path = StoryBoards;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C354069321418AAF00FDA074 /* LaunchScreen.storyboard in Resources */,
+				C35406A02141910000FDA074 /* PlacesTable.storyboard in Resources */,
 				C354069021418AAF00FDA074 /* Assets.xcassets in Resources */,
 				C354069D21418FFB00FDA074 /* MapView.storyboard in Resources */,
 				C354068E21418AA400FDA074 /* Main.storyboard in Resources */,
