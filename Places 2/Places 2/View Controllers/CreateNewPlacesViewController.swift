@@ -29,5 +29,17 @@ class CreateNewPlacesViewController: UIViewController, PlacesPresenter {
     @IBOutlet weak var latitudeTextField: UITextField!
     @IBOutlet weak var longitudeTextField: UITextField!
     
-  
+    @IBAction func createNewPlace(_ sender: Any) {
+        guard let name = nameTextField.text,
+            let latitudeString = latitudeTextField.text,
+            let latitude = Double(latitudeString),
+            let longitudeString = longitudeTextField.text,
+            let longtitude = Double(longitudeString) else {return}
+        
+        placeController?.createPlace(with: name, latitude: latitude, longitude: longtitude)
+        
+    }
+    
+    
+    
 }

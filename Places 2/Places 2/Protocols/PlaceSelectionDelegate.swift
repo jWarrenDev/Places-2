@@ -1,5 +1,5 @@
 //
-//  PlacesPresenter.swift
+//  PlaceSelectionDelegate.swift
 //  Places 2
 //
 //  Created by Welinkton on 9/6/18.
@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol PlacesPresenter: class {
-    var placeController: PlaceController? {get set}
+protocol PlaceSelectionDelegate:class {
+    func placeWasSelected(place: Place)
 }
-

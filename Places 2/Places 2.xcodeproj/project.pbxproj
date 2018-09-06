@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3458FC32141BAE200E34FBB /* PlaceSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3458FC22141BAE200E34FBB /* PlaceSelectionDelegate.swift */; };
 		C354068921418AA400FDA074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C354068821418AA400FDA074 /* AppDelegate.swift */; };
 		C354068E21418AA400FDA074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354068C21418AA400FDA074 /* Main.storyboard */; };
 		C354069021418AAF00FDA074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C354068F21418AAF00FDA074 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3458FC22141BAE200E34FBB /* PlaceSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSelectionDelegate.swift; sourceTree = "<group>"; };
 		C354068521418AA300FDA074 /* Places 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Places 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C354068821418AA400FDA074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C354068D21418AA400FDA074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,10 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				C35406A32141972800FDA074 /* PlacesTabBarController.swift */,
-				C35406AE2141991300FDA074 /* PlacesTableViewController.swift */,
-				C35406AC214197F800FDA074 /* VisitedPlacesViewController.swift */,
 				C35406A52141975200FDA074 /* CreateNewPlacesViewController.swift */,
 				C35406A72141977800FDA074 /* MapViewController.swift */,
+				C35406AE2141991300FDA074 /* PlacesTableViewController.swift */,
+				C35406AC214197F800FDA074 /* VisitedPlacesViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				C35406B221419CF100FDA074 /* PlacesPresenter.swift */,
+				C3458FC22141BAE200E34FBB /* PlaceSelectionDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				C35406A22141955700FDA074 /* Place.swift in Sources */,
 				C35406A82141977800FDA074 /* MapViewController.swift in Sources */,
 				C35406A62141975200FDA074 /* CreateNewPlacesViewController.swift in Sources */,
+				C3458FC32141BAE200E34FBB /* PlaceSelectionDelegate.swift in Sources */,
 				C35406AF2141991300FDA074 /* PlacesTableViewController.swift in Sources */,
 				C35406AD214197F800FDA074 /* VisitedPlacesViewController.swift in Sources */,
 			);
