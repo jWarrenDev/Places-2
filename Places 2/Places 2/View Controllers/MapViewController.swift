@@ -28,6 +28,8 @@ class MapViewController: UIViewController {
         }
     }
  
+    // is this function working correctly?
+    
     private func updateMapViewLocation() {
         guard let location = location, isViewLoaded else { return }
             let span = MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1)
@@ -37,4 +39,5 @@ class MapViewController: UIViewController {
         mapView.setRegion(region, animated: true)
     }
 
+    
 }
