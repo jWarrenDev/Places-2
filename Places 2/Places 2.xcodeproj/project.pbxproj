@@ -13,6 +13,7 @@
 		C354069321418AAF00FDA074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354069121418AAF00FDA074 /* LaunchScreen.storyboard */; };
 		C354069D21418FFB00FDA074 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354069C21418FFB00FDA074 /* MapView.storyboard */; };
 		C35406A02141910000FDA074 /* PlacesTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354069F2141910000FDA074 /* PlacesTable.storyboard */; };
+		C35406A22141955700FDA074 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35406A12141955700FDA074 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C354069421418AAF00FDA074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C354069C21418FFB00FDA074 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		C354069F2141910000FDA074 /* PlacesTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesTable.storyboard; sourceTree = "<group>"; };
+		C35406A12141955700FDA074 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		C354067C21418AA300FDA074 = {
 			isa = PBXGroup;
 			children = (
+				C35406A12141955700FDA074 /* Place.swift */,
 				C354068721418AA300FDA074 /* Places 2 */,
 				C354068621418AA300FDA074 /* Products */,
 			);
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C354068921418AA400FDA074 /* AppDelegate.swift in Sources */,
+				C35406A22141955700FDA074 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
