@@ -12,17 +12,12 @@ class CreateNewPlacesViewController: UIViewController, PlacesPresenter {
    
     var placeController: PlaceController?
     
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-      
     }
     
     @IBOutlet weak var nameTextField: UITextField!
@@ -39,7 +34,5 @@ class CreateNewPlacesViewController: UIViewController, PlacesPresenter {
         placeController?.createPlace(with: name, latitude: latitude, longitude: longtitude)
         
     }
-    
-    
     
 }
