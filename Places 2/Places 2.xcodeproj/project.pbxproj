@@ -84,9 +84,9 @@
 		C354069E2141900000FDA074 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
+				C354068C21418AA400FDA074 /* Main.storyboard */,
 				C354069C21418FFB00FDA074 /* MapView.storyboard */,
 				C354069F2141910000FDA074 /* PlacesTable.storyboard */,
-				C354068C21418AA400FDA074 /* Main.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JG93VFG2G;
-				INFOPLIST_FILE = "Places 2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Places 2/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JG93VFG2G;
-				INFOPLIST_FILE = "Places 2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Places 2/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
